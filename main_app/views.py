@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Cat
+from .models import Game
 
 def home(request):
     return render(request, 'home.html')
